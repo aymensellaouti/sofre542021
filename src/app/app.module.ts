@@ -6,15 +6,39 @@ import { AppComponent } from './app.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 
+import { ColorComponent } from './components/color/color.component';
+import { TwoWayComponent } from './components/two-way/two-way.component';
+import { FormsModule } from '@angular/forms';
+import { CardComponent } from './components/card/card.component';
+import { PereComponent } from './components/pere/pere.component';
+import { FilsComponent } from './components/fils/fils.component';
+import { CvComponent } from './cv/cv/cv.component';
+import { ItemComponent } from './cv/item/item.component';
+import { ListComponent } from './cv/list/list.component';
+import { DetailComponent } from './cv/detail/detail.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    ColorComponent,
+    TwoWayComponent,
+    CardComponent,
+    PereComponent,
+    FilsComponent,
+    CvComponent,
+    ItemComponent,
+    ListComponent,
+    DetailComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
