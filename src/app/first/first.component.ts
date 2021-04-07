@@ -1,5 +1,7 @@
 
+
 import { Component, OnChanges, OnInit } from '@angular/core';
+
 
 
 @Component({
@@ -7,6 +9,10 @@ import { Component, OnChanges, OnInit } from '@angular/core';
   templateUrl: './first.component.html',
   styleUrls: ['./first.component.css']
 })
+
+
+
+
 export class FirstComponent implements OnInit, OnChanges {
   name = 'aymen';
   bgc = 'yellow';
@@ -23,4 +29,5 @@ export class FirstComponent implements OnInit, OnChanges {
   ngOnChanges(): void {
     console.log('cc');
   }
+
 }

@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+
 import { ColorComponent } from './components/color/color.component';
 import { TwoWayComponent } from './components/two-way/two-way.component';
 import { CardComponent } from './components/card/card.component';
@@ -29,6 +30,7 @@ import { DefaultImagePipe } from './cv/pipes/default-image.pipe';
 import { TodoComponent } from './todo/todo/todo.component';
 import { EmbaucheComponent } from './cv/embauche/embauche.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +44,10 @@ import { EmbaucheComponent } from './cv/embauche/embauche.component';
     CvComponent,
     ItemComponent,
     ListComponent,
+
+
+
+
     DetailComponent,
     NgstyleComponent,
     WordComponent,
@@ -52,6 +58,7 @@ import { EmbaucheComponent } from './cv/embauche/embauche.component';
     DefaultImagePipe,
     TodoComponent,
     EmbaucheComponent,
+
   ],
   imports: [
     BrowserModule,
